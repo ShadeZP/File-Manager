@@ -1,0 +1,15 @@
+export const COMMANDS = {
+  upper: 'up',
+  currentDirectory: 'cd',
+  listFiles: 'ls',
+  readFile: 'cat',
+  createFile: 'add',
+  renameFile: 'rn',
+  copyFile: 'cp',
+  moveFile: 'mv',
+  deleteFile: 'rm',
+  operationSystem: 'os',
+  hash: 'hash',
+  compressFile: 'compress',
+  decompressFile: 'decompress',
+}
