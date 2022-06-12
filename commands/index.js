@@ -7,6 +7,7 @@ import { rn } from './operation-with-files/rn.js';
 import { cp } from './operation-with-files/cp.js';
 import { mv } from './operation-with-files/mv.js';
 import { rm } from './operation-with-files/rm.js';
+import { osService as os } from './operation-system/os.js'
 
 export const commands = {
   cd,
@@ -18,4 +19,5 @@ export const commands = {
   cp,
   mv,
   rm,
+  os,
 }
