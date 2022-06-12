@@ -9,6 +9,10 @@ const inputFilter = new Transform({
     const isCommandExist = listOfCommands.some((item) => item === command);
     const result = JSON.stringify({ command, firstArg, secondArg });
 
+    if(command === '.exit'){
+      process.exit();
+    }
+
     if(!isCommandExist) {
       console.error('Invalid input');
       callback(null, '');

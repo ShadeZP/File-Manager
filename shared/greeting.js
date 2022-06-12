@@ -18,6 +18,11 @@ function makeGreeting() {
   stdout.write(`${getCurrFolder()}\n`);
 }
 
+function makeFarewell() {
+  const greetingName = name ? name : 'noName'
+  console.log(`Thank you for using File Manager, ${greetingName}!\n`);
+}
+
 const name = getName();
 
-export { makeGreeting }
+export { makeGreeting,  makeFarewell}
