@@ -9,6 +9,8 @@ import { mv } from './operation-with-files/mv.js';
 import { rm } from './operation-with-files/rm.js';
 import { osService as os } from './operation-system/os.js';
 import { hash } from './hash/hash.js';
+import { compress } from './zip/compress.js';
+import { decompress } from './zip/decompress.js';
 
 export const commands = {
   cd,
@@ -22,4 +24,6 @@ export const commands = {
   rm,
   os,
   hash,
+  compress,
+  decompress,
 }
